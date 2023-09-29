@@ -1,4 +1,15 @@
 /* ----------------------- Clas CSS ---------------------*/
+p {
+    font-family: Tahoma;
+}
+
+h3 {
+    font-family: Georgia;
+}
+h2 {
+    font-family: Verdana;
+}
+
 
 .nb-background-color {         /* navbar background color */
     background-color: #064e3b;

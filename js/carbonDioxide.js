@@ -1,5 +1,5 @@
 async function getData(){
-    const response = await fetch("rp_Agrawal/data/carbon-dioxide-readings.csv")
+    const response = await fetch("/rp_Agrawal/data/carbon-dioxide-readings.csv")
     //const response = await fetch("../data/carbon-dioxide-readings.csv")
     const data = await response.text()  // CSV is in text format
     // console.log(data);
